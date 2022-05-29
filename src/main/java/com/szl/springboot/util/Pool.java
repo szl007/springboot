@@ -27,6 +27,7 @@ public abstract class Pool {
     //驱动变量
     protected Driver driver = null;
 
+    //构造函数
     protected Pool(){
         try {
             init();
