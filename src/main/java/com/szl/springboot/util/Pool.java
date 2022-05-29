@@ -55,7 +55,7 @@ public abstract class Pool {
         String driverClassName = dri;
         try{
             Class.forName(driverClassName).newInstance();
-
+            DriverManager.registerDriver(driver);
         }catch (Exception e){
 
         }
